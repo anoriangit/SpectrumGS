@@ -1,0 +1,74 @@
+CMakeFiles/spectrum-gs.dir/text_box_l.c.o: \
+  /home/gerhard/dev/spectrum-gs/text_box_l.c \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stdbool.h \
+  /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stdarg.h \
+  /usr/include/stdio.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /home/gerhard/dev/spectrum-gs/spectrum.h \
+  /home/gerhard/dev/spectrum-gs/z80cpu.h /home/gerhard/dev/Z80/API/Z80.h \
+  /home/gerhard/dev/Zeta/API/Z/macros/language.h \
+  /home/gerhard/dev/Zeta/API/Z/macros/casting.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/language.h \
+  /home/gerhard/dev/Zeta/API/Z/keys/language.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/C.h \
+  /home/gerhard/dev/Zeta/API/Z/keys/C.h \
+  /home/gerhard/dev/Zeta/API/Z/macros/token.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/C/modules/C11.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/C/modules/C99.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/C/modules/C95.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/C/modules/C89.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/C/modules/C78.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/compiler.h \
+  /home/gerhard/dev/Zeta/API/Z/keys/compiler.h \
+  /home/gerhard/dev/Zeta/API/Z/macros/version.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/compiler/detection.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/compiler/modules/Clang.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/compiler/completion.h \
+  /home/gerhard/dev/Zeta/API/Z/types/bitwise.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/ISA.h \
+  /home/gerhard/dev/Zeta/API/Z/keys/ISA.h \
+  /home/gerhard/dev/Zeta/API/Z/keys/endianness.h \
+  /home/gerhard/dev/Zeta/API/Z/types/integral.h \
+  /home/gerhard/dev/Zeta/API/Z/constants/boolean.h \
+  /home/gerhard/dev/Zeta/API/Z/inspection/data_model.h \
+  /home/gerhard/dev/Zeta/API/Z/keys/data_model.h \
+  /home/gerhard/dev/Zeta/API/Z/keys/fundamental.h \
+  /home/gerhard/dev/Zeta/API/Z/formats/data_model/LP64.h \
+  /home/gerhard/dev/Zeta/API/Z/macros/T.h \
+  /home/gerhard/dev/Zeta/API/Z/macros/structure.h \
+  /home/gerhard/dev/spectrum-gs/spectrum_ula.h \
+  /home/gerhard/dev/spectrum-gs/spectrum_text_overlay.h \
+  /home/gerhard/dev/spectrum-gs/spectrum_keyboard.h \
+  /home/gerhard/dev/spectrum-gs/z80mmu.h \
+  /home/gerhard/dev/spectrum-gs/text_box_l.h \
+  /home/gerhard/dev/spectrum-gs/besciifont.h

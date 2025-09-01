@@ -1,0 +1,43 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/gerhard/dev/Zeta/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Zeta_Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/gerhard/dev/Zeta/API/Z"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "/home/gerhard/dev/Zeta",
+		"source" : "/home/gerhard/dev/Zeta"
+	}
+}
