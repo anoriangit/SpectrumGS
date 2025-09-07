@@ -20,18 +20,42 @@
 #define P_ERR_FILE_SEEK_ERROR   -2
 #define P_ERR_FILE_READ_ERROR   -3
 #define P_ERR_FILE_WRITE_ERROR  -4
+#define P_ERR_FILE_CACHE_ERROR  -5
+#define P_ERR_FILE_MODE_ERROR   -6
 
 #define P_FILE_WRITE_MODE_CREATE 0      // create if doesn't exist, overwrite otherwise
 #define P_FILE_WRITE_MODE_APPEND 1
 
 // Write data to file
 //	- either creates a new file (overwrites existing) or appends to given file
+//  - if NULL is passed in for fname and a file is open, append mode is always used
 //	- the file pointer is being cached inbetween calls so that several
 //		write calls to the same file can re-use it without having to re-open the file
 //	- file_name must be properly 0 terminated
 // Return: number of bytes written or negative error code
 
+static FILE *CUR_FILE = NULL;
+
 int P_WriteFileData(const char *fname, int mode, void *data, size_t len) {
+
+	if(!CUR_FILE) {
+		if(!fname) {
+			return P_ERR_FILE_CACHE_ERROR;
+		} else {
+			if(mode == P_FILE_WRITE_MODE_CREATE)
+				CUR_FILE = fopen(fname, "wb");
+			else if(mode == P_FILE_WRITE_MODE_APPEND)
+				CUR_FILE = fopen(fname, "wb+");
+			else
+				return P_ERR_FILE_MODE_ERROR;
+
+			if(!CUR_FILE)
+				return P_ERR_FILE_OPEN_ERROR;
+		}
+
+		
+	}
+
 
 	return 0;
 	
